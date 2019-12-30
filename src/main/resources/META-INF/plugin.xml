@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>leetcode-editor</id>
     <name>leetcode editor</name>
-    <version>6.0</version>
+    <version>6.01</version>
     <vendor email="shuzijun0109@gmail.com" url="https://github.com/shuzijun/idea-leetcode-plugin">shuzijun</vendor>
 
     <description><![CDATA[
@@ -346,7 +346,9 @@
         <action id="leetcode.OpenInWebAction" class="com.shuzijun.leetcode.plugin.actions.OpenInWebAction"
                 text="open in web" description="open in web" icon="AllIcons.Actions.MoveTo2">
         </action>
-
+        <action id="leetcode.FindSolution" class="com.shuzijun.leetcode.plugin.actions.FindSolutionAction"
+                text="find solution" description="find solution" icon="AllIcons.Actions.Find">
+        </action>
         <action id="leetcode.SubmitAction" class="com.shuzijun.leetcode.plugin.actions.SubmitAction"
                 text="Submit" description="Submit" icon="AllIcons.Actions.StepOut">
         </action>
@@ -386,6 +388,7 @@
             <reference id="leetcode.OpenAction"/>
             <reference id="leetcode.OpenContentAction"/>
             <reference id="leetcode.OpenInWebAction"/>
+            <reference id="leetcode.FindSolution"/>
             <separator/>
             <reference id="leetcode.SubmitAction"/>
             <reference id="leetcode.SubmissionsAction"/>
