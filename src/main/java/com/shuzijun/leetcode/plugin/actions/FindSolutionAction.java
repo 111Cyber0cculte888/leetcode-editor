@@ -21,7 +21,7 @@ public class FindSolutionAction extends AbstractAsynAction {
             return;
         }
 //        CodeManager.RuncodeCode(question);
-        BrowserUtil.browse("https://raw.githubusercontent.com/fishercoder1534/Leetcode/master/src/main/java/com/fishercoder/solutions/_" + question.getQuestionId() + ".java");
+        BrowserUtil.browse("https://github.com/dodola/Leetcode/blob/master/src/main/java/com/fishercoder/solutions/_" + question.getQuestionId() + ".java");
 
 
     }
